@@ -18,7 +18,7 @@ class Model:
             self.__email = value
         else:
             raise ValueError(f'Invalid email address: {value}')
-
+#THIS CHANGES EVERYTHING
     def save(self):
         """
         Save the email into a file
