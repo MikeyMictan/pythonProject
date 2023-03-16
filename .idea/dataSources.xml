@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\mictan0910\OneDrive - Highgate School\_OLD Z DRIVE\Y12\PycharmProjects\pythonProject\student activities\activities.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="emails" uuid="b352eb36-9ff4-4118-86a4-7412e2073da0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:M:\PyCharm Files\pythonProject\EmailNBC\emails.sqlite</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

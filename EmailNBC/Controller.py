@@ -1,7 +1,10 @@
+from sqlalchemy import create_engine
+from sqlalchemy.orm import Session
+from model import EmailAddress
+
 class Controller:
     def __init__(self, model, view):
-        self.model = model
-        self.view = view
+        self.engine = create_engine('sqlite:///emails.sqlite', echo=True)
 
     def save(self, email):
         """
@@ -21,3 +24,11 @@ class Controller:
         except ValueError as error:
             # show an error message
             self.view.show_error(error)
+
+
+
+
+
+
+
+
